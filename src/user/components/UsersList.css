@@ -1,0 +1,21 @@
+.users-list {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  width: 90%;
+  max-width: 50rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.users-quote{
+  text-align: center;
+  font-family: italic;
+}
+.bg{
+  background-image: url('https://cdn.businesstraveller.com/wp-content/uploads/fly-images/1006104/mountain-984083_1280-1-916x516-1-916x516.jpg');
+  /* background: whitesmoke;  */
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+}
