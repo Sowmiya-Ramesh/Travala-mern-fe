@@ -13,7 +13,7 @@ const Users = () => {
     const fetchUsers = async () => {
       try {
         const responseData = await sendRequest(
-         'https://travala.herokuapp.com/api/users'
+         'https://travala7.herokuapp.com/api/users'
         );
 
         setLoadedUsers(responseData.users);
